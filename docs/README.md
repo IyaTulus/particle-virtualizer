@@ -1,10 +1,23 @@
-# Documentation Index
+# Documentation Center
 
-Panduan dokumentasi proyek `ParticleVisualizer`.
+Selamat datang di pusat dokumentasi `ParticleVisualizer`. Halaman ini membantu kamu menemukan panduan yang tepat dengan cepat, tanpa harus menelusuri file satu per satu.
 
-## Dokumen yang tersedia
+## Mulai dari sini
 
-- [Flask / Backend Python](./flask.md) — pintu masuk backend, setup `.venv`, install dependency, dan cara menjalankan `main.py`.
-- [Backend Python detail](./python-backend.md) — dokumentasi teknis yang lebih lengkap untuk backend.
-- [Frontend React](./react-frontend.md) — setup npm, jalankan Vite dev server, dan build frontend.
-- [Alphabet Bahasa Isyarat](./sign-language-alphabet.md) — referensi visual huruf A-Z berdasarkan chart yang digunakan project.
+- Jika ingin menjalankan backend, buka [Backend Python](./flask.md)
+- Jika ingin memahami alur teknis backend, buka [Backend Python detail](./python-backend.md)
+- Jika ingin menjalankan antarmuka web, buka [Frontend React](./react-frontend.md)
+- Jika ingin melihat referensi alfabet isyarat, buka [Alphabet Bahasa Isyarat](./sign-language-alphabet.md)
+
+## Daftar dokumen
+
+| Dokumen | Tujuan |
+| --- | --- |
+| [Backend Python](./flask.md) | Pintu masuk backend: environment, install dependency, dan cara menjalankan `main.py` |
+| [Backend Python detail](./python-backend.md) | Panduan teknis backend yang lebih lengkap |
+| [Frontend React](./react-frontend.md) | Setup npm, menjalankan Vite, dan build frontend |
+| [Alphabet Bahasa Isyarat](./sign-language-alphabet.md) | Referensi visual huruf A–Z untuk gesture dan eksperimen visual |
+
+## Arah kontribusi
+
+Project ini terbuka untuk kontribusi kreatif. Jika kamu ingin menambahkan visual baru, bentuk particle baru, atau eksperimen berbasis AI maupun kreasi sendiri, dokumentasi di atas adalah titik awal yang tepat.
