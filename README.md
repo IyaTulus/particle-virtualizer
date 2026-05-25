@@ -33,6 +33,7 @@ Panduan lengkap tersedia di:
 - [Backend Python detail](docs/python-backend.md)
 - [Frontend React](docs/react-frontend.md)
 - [Alphabet Bahasa Isyarat](docs/sign-language-alphabet.md)
+- [Contribution Guide](docs/contributing.md)
 
 ## Referensi visual
 
@@ -77,4 +78,6 @@ Ide kontribusi yang sangat kami sambut:
 - eksperimen berbasis AI yang tetap menjaga identitas visual project
 
 Selama kontribusi kamu sejalan dengan arah project, semua ide kreatif sangat dihargai.
+
+Panduan alur kontribusi yang disarankan, termasuk membuat branch sendiri, membuka PR ke `develop`, dan menandai admin untuk review, tersedia di [Contribution Guide](docs/contributing.md).
 
