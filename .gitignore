@@ -1,0 +1,59 @@
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+site/
+pip-wheel-metadata/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Python logs / runtime ---
+*.log
+*.pid
+*.seed
+*.out
+*.err
+
+# --- Node / Vite ---
+node_modules/
+web/node_modules/
+dist/
+web/dist/
+web/.vite/
+coverage/
+web/coverage/
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- IDE / OS files ---
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+*.tmp
+*.bak

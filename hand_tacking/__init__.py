@@ -1,0 +1,1 @@
+"""ParticleVisualizer package."""
