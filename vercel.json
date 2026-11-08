@@ -3,7 +3,8 @@
   "services": {
     "app": {
       "root": ".",
-      "runtime": "python"
+      "runtime": "python",
+      "entrypoint": "main.py"
     },
     "web": {
       "root": "web",
@@ -12,9 +13,15 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/api/(.*)",
       "destination": {
         "service": "app"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "web"
       }
     }
   ]
